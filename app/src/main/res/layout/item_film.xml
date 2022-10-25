@@ -40,7 +40,5 @@
                 android:textSize="18sp" />
 
         </androidx.appcompat.widget.LinearLayoutCompat>
-
     </androidx.cardview.widget.CardView>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

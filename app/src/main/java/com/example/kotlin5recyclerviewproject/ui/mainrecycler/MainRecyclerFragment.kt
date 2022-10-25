@@ -8,13 +8,11 @@ import android.view.ViewGroup
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.kotlin5recyclerviewproject.databinding.FragmentMainRecyclerBinding
-import com.example.kotlin5recyclerviewproject.ui.mainrecycler.mainrecyclerviewmodel.FilmAdapter
 import com.example.kotlin5recyclerviewproject.ui.data.FilmModel
 import com.example.kotlin5recyclerviewproject.ui.mainrecycler.mainrecyclerviewmodel.MainRecyclerVewModel
 
 
 class MainRecyclerFragment : Fragment() {
-
     private lateinit var binding: FragmentMainRecyclerBinding
     private var viewModel: MainRecyclerVewModel? = null
     private val list: ArrayList<FilmModel> = ArrayList()
@@ -36,7 +34,6 @@ class MainRecyclerFragment : Fragment() {
         setviewModel()
         getData()
         getText()
-
     }
 
     private fun setviewModel() {
@@ -66,7 +63,6 @@ class MainRecyclerFragment : Fragment() {
     private fun getText() {
 
     }
-
 }
 
 

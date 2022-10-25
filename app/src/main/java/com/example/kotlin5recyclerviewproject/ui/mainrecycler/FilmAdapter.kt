@@ -1,8 +1,6 @@
-package com.example.kotlin5recyclerviewproject.ui.mainrecycler.mainrecyclerviewmodel
+package com.example.kotlin5recyclerviewproject.ui.mainrecycler
 
 
-import android.annotation.SuppressLint
-import android.net.Uri
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
